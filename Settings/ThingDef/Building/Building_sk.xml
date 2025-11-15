@@ -1,0 +1,66 @@
+﻿<ThingDefs><List>
+
+<ThingDef Type="Building" Name="ModelChange" Parent="BuildingBase">	
+	<ThingName>ModelChange</ThingName>
+	<Desc>可以更改小人模型的建筑</Desc>
+	<TexPath>Spr\Building\SW\temple.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<OffsetGroup>
+			<li><x>0</x><y>1.4</y></li>
+			<li><x>0</x><y>1.35</y></li>
+			<li><x>0</x><y>1.4</y></li>
+			<li><x>0</x><y>1.35</y></li>
+		</OffsetGroup>
+	</Collider>
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>16</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_RoughWoodBlock" count = "12"/>
+			</CostItems>
+		</BeMade>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>15</CostStuffCount>
+			<Duration>0.05</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+	</Building>
+	<StoryBnts>
+			<li Name="模型" Desc="修改小人模型" Story="Story_ThanDien12" Appoint="3" Scope = "2" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+</ThingDef>	
+
+</List></ThingDefs>

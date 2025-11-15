@@ -1,0 +1,229 @@
+﻿<Stories><List>
+	
+	<Story Name="Story_ThanDien12" Parent="BaseFillingStory">
+		<DisplayName>选择性别</DisplayName>
+		<Desc>请选择小人的性别</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>女性</Display>
+				<Condition><![CDATA[
+				me:GetSex() == 2
+				]]>
+				</Condition>
+				<OKResult><![CDATA[
+					me:TriggerStory("Story_Female_modelChange1");
+				]]>	
+				</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME] 啥事没干，离开了"));</NOResult>
+			</li>
+			<li>
+				<Display>男性</Display>
+				<Condition><![CDATA[
+				me:GetSex() == 1
+				]]>
+				</Condition>
+				<OKResult><![CDATA[
+					me:TriggerStory("Story_Male_modelChange1");
+				]]>	
+				</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME] 啥事没干，离开了"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>
+				<![CDATA[	
+					me:AddMsg(XT("[NAME] 啥事没干，离开了"));
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="Story_Female_modelChange1"  Parent="BaseFillingStory">
+		<DisplayName>女性模型</DisplayName>
+		<Desc>针对女性模型和头像。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>BichDao</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_1", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>貂蝉</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_2", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Lu Xueqi</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_3", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>虞姬</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_4", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Zi hé</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_5", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Medusa</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_6", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Xiǎo yī xiān</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_7", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>下一页</Display> 
+				<OKResult>
+				me:TriggerStory("Story_Female_modelChange2")
+				</OKResult>
+			</li>
+
+		</Selections>
+	</Story>
+	<Story Name="Story_Female_modelChange2"  Parent="BaseFillingStory">
+		<DisplayName>女性模型</DisplayName>
+		<Desc>针对女性模型和头像。第二页</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Yun Yun</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_8", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>YuZaoQian</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_9", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>芭芭拉</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_10", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>旅行者</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_11", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>甘雨</Display> 
+				<OKResult>
+					me:AddModifier("Female_Model_Change_12", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>上一页</Display> 
+				<OKResult>
+					me:TriggerStory("Story_Female_modelChange1")
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]想了想...现在的样子好像更好看。");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Male_modelChange1"  Parent="BaseFillingStory">
+		<DisplayName>男性模型</DisplayName>
+		<Desc>针对男性模型和头像。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>后羿</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_1", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>吕布</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_2", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>关羽</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_3", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>猴子</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_4", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Shen Ma</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_5", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Yao Chen</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_6", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>李白</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_7", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>下一页</Display> 
+				<OKResult>
+				me:TriggerStory("Story_Male_modelChange2")
+				</OKResult>
+			</li>
+
+		</Selections>
+	</Story>
+	<Story Name="Story_Male_modelChange2"  Parent="BaseFillingStory">
+		<DisplayName>男性模型</DisplayName>
+		<Desc>针对男性模型和头像。第二页</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>罗杰</Display> 
+				<OKResult>
+					me:AddModifier("Male_Model_Change_8", false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>上一页</Display> 
+				<OKResult>
+					me:TriggerStory("Story_Male_modelChange1")
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]想了想...现在的样子好像更好看。");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

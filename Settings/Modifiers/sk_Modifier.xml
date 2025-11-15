@@ -1,0 +1,183 @@
+<ModifierDefs><List>
+<!--Female-->
+	<Modifier Name="Female_Model_Change_1" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>1</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_2" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>2</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_3" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>3</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_4" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>5</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_5" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>8</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_6" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>6</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_7" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>7</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_8" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>8</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_9" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>9</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_10" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>10</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_11" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>11</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Female_Model_Change_12" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>12</Desc>
+		<LuaClassName>Female_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+
+
+
+	
+	
+	
+	
+	
+	<!-- Male -->
+
+	<Modifier Name="Male_Model_Change_1" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>1</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_2" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>2</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_3" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>3</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_4" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>5</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_5" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>8</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_6" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>6</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_7" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>7</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	<Modifier Name="Male_Model_Change_8" Type="Normal">
+		<ModScale>0.3</ModScale>
+		<MaxStack>0</MaxStack>
+		<Duration>1</Duration>
+		<Display>0</Display>
+		<Desc>8</Desc>
+		<LuaClassName>Male_Model_Change_Lua_2112</LuaClassName>
+	</Modifier>
+	
+
+</List></ModifierDefs>
+
+
+
+
+
+	
+
+
